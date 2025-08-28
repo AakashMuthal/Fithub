@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diet Plan Selector</title>
+  <link rel="stylesheet" href="css/diet.css">
+
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <h1>FIT<span> HUB</span></h1>
+      </div>
+
+      <ul>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="exercise.html">Exercise</a></li>
+        <li><a href="yogaex.html">yoga</a></li>
+      </ul>
+
+      <div class="icon">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-heart"></i>
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+
+    </nav>
+  </header>
+
+  <div class="container">
+    <h1>Diet Plan Selector</h1>
+    <form id="diet-form">
+      <label for="gender">Select Your Gender:</label>
+      <select id="gender" name="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+
+      <label for="fitness-goal">Select Your Fitness Goal:</label>
+      <select id="fitness-goal" name="fitness-goal">
+        <option value="weight-gain">Weight Gain</option>
+        <option value="weight-loss">Weight Loss</option>
+        <option value="muscle-gain">Muscle Gain</option>
+      </select>
+
+
+      <select id="day"></select>
+
+      <button type="button" onclick="generateDietPlan()">Generate Diet Plan</button>
+    </form>
+
+    <div id="diet-plan"></div>
+  </div>
+
+
+
+  <script src="js/diet.js"></script>
+
+</body>
+
+</html>

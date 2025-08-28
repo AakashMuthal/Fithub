@@ -1,0 +1,13 @@
+.profile1 .profile {
+   width: 40px;
+   height: 40px;
+   border-radius: 5px;
+}
+
+.profile1 .profile img {
+   height: 40px;
+   width: 40px;
+   border-radius: 50%;
+
+
+}
