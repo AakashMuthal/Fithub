@@ -440,9 +440,9 @@ if (isset($_GET['logout'])) {
             </div>
 
             <div>
-              <a href="video.html" class="footer-link">homeworkout@gmail.com</a>
+              <a href="video.html" class="footer-link">fithub@gmail.com</a>
 
-              <a href="video.html" class="footer-link">homeworkout01@gmail.com</a>
+              <a href="video.html" class="footer-link">fithub@gmail.com</a>
             </div>
           </li>
 
